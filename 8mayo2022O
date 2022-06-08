@@ -1,0 +1,74 @@
+package práctica;
+
+public class Práctica {
+
+    public static void main(String[] args) {
+        
+        int suma1 = sumar(6, 8);
+        System.out.println(suma1);
+        
+        int suma2  = sumar2(6, 8, 9);
+        System.out.println(suma2);
+        
+        int resta = resta(6, 8);
+        System.out.println(resta);
+        
+        int multiplicacion = multiplicacion(6, 8);
+        System.out.println(multiplicacion);
+        
+        int multiplicacion2 = multiplicacion2(6, 8, 9);
+        System.out.println(multiplicacion2);
+        
+        double division = division(6, 8);
+        System.out.println(division);
+        
+        double division2 = division2(6, 8, 9);
+        System.out.println(division2);
+        
+        double residuo = residuo(34, 12);
+        System.out.println(residuo);
+        
+        double  residuo2 = residuo2(23, 12, 9);
+        System.out.println(residuo2);
+        
+        
+        
+    }
+    public static int sumar(int a, int b) {
+        int r = a + b;
+        return r;
+    }
+    public static int sumar2(int a, int b, int c){
+        int r = a + b + c;
+        return r;
+    }
+    public static int resta(int a, int b){
+        int r = a - b;
+        return r;
+    }
+    public static int multiplicacion(int a, int b){
+        int r = a * b;
+        return r;
+    }
+    public static int multiplicacion2(int a, int b, int c){
+        int r = a * b * c;
+        return r;
+    }
+    public static double division(double a, double b){
+        double r = a/b;
+        return r;
+    }
+    public static double division2(double a, double b, double c){
+        double r = (a/b)/c;
+        return r;
+    }
+    public static double residuo (double a, double b){
+        double r =a%b;
+        return r;
+    }
+    public static double residuo2(double a, double b, double c){
+        double r =(a%b)% c;
+        return r;
+    }
+}
+
