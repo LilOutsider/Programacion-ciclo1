@@ -1,0 +1,93 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package javaapplication1;
+
+/**
+ *
+ * @author tpp
+ */
+public class JavaApplication1 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        
+       suma(7,8);
+       suma(7,8,10);
+       resta(7,8);
+       resta(7,8,45);
+       suma(7,8);
+       suma(7,8);
+       suma(7,8);
+       suma(7,8);
+       suma(7,8);
+       suma(7,8);
+                                          
+        
+    }
+    
+    public static void suma(int a, int b){
+    
+        int respuesta = a + b;
+        System.out.println(respuesta);        
+    
+    }
+    
+     public static void suma(int a, int b, int c){
+    
+      int respuesta = a + b + c;
+      System.out.println(respuesta);
+     }
+    
+     public static void resta(int a, int b){
+    
+       int respuesta = a - b ;
+      System.out.println(respuesta);
+      
+     }
+     
+         public static void resta(int a, int b, int c){
+    
+        int respuesta = a - b - c;
+        System.out.println(respuesta);
+        
+         }
+        
+        public static void multpli(int a, int b){
+    
+        int respuesta = a + b;
+        System.out.println(respuesta);
+        }
+        
+        public static void multpli(int a, int b, int c){
+    
+        int respuesta = a * b * c;
+        System.out.println(respuesta);
+        }
+        public static void div(int a, int b){
+    
+        int respuesta = a / b ;
+        System.out.println(respuesta);
+        }
+            public static void div(int a, int b, int c){
+    
+        int respuesta = (a / b)/ c;
+        System.out.println(respuesta);
+            }
+          public static void residuo(int a, int b){
+    
+        int respuesta = a % b;
+        System.out.println(respuesta);
+          }
+        
+        public static void residuo(int a, int b, int c){
+            
+            int respuesta = (a % b)%c;
+            System.out.println(respuesta);
+        }
+    
+}
